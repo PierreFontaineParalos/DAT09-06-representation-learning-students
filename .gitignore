@@ -14,6 +14,9 @@ __pycache__/
 data/raw/
 data/processed/*.npz
 data/processed/*.npy
+# ...except the session 5 product catalogue, built once by the instructor.
+!data/processed/products_*.npy
+!data/processed/products_*.npz
 
 # OS
 .DS_Store
